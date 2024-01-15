@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Times New Roman', Times, serif
 }
 
 /* HEADER */
@@ -20,7 +21,27 @@ header img{
   bottom: 5px;
 }
 
+.author{
+  font-size: .8em;
+  color: #7e7e7e;
+}
+
+.author a{
+  text-decoration: none;
+  color: #20a9e5;
+  font-weight: bold;
+}
+
+.credits{
+  font-size: 0.6em;
+}
+
 /* MAIN */
+
+main{
+  padding-left: 2px;
+  padding-right: 2px;
+}
 
 .head-container{
   width: 100%;
@@ -37,6 +58,10 @@ table th{
 
 .tr2, .tr4{
   background-color: #b1e5f2;
+}
+
+.highlighted{
+  background-color: yellow;
 }
 
 /* FOOTER */
