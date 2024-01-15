@@ -50,11 +50,12 @@ main{
 .tim-pictures img{
   width: 45%;
 }
+
 ul {
   padding-left: 20px;
 }​
 
-table th{
+table tr th{
   background-color: #20a9e5;
   color: white;
 }
